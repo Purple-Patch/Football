@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <section id="wrapper">
+    <div id="title">
+      <h1>Shoot to score</h1>
+    </div>
+    <div id="info-screen" class="hidden">
+      <div id="info-shade"></div>
+      <div id="info-text">
+        <h3>Shoot to score:</h3>
+        <ul>
+          <li>Shoot the ball straight up, with just enough velocity </li>
+          <li>The smaller the green circle, the greater chance in catching omanyte!</li>
+        </ul>
+      </div>
+  
+    </div>
+    <div id="touch-layer"></div>
+    <div id="particles"></div>
+    <div id="ring-screen">
+      <div id="ring">
+        <div id="ring-active">
+          <div id="ring-fill"></div>
+        </div>
+      </div>
+    </div>
+    <div id="screen" class="gradient-background">
+      <div id="target-container">
+        <div id="target"></div>
+      </div>
+      <div id="ball"></div>
+      <div id="output"></div>
+    </div>
+  
+  
+    <div id="capture-screen" class="gradient-background hidden">
+      <div id="capture-status" class="hidden">
+        You Scored!
+      </div>
+      <div id="poof-container" class="hidden">
+        <div id="poof"></div>
+      </div>
+      <div id="capture-confetti"></div>
+      <div id="capture-ball"></div>
+      <div id="capture-ball-button-container" class="hidden">
+        <div id="capture-ball-button"></div>
+      </div>
+    </div>
+  </section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="assets/zingtouch.min.js"></script>
+<script src="assets/anime.min.js"></script>
+<script src="assets/script.js"></script>
+</body>
+</html>
