@@ -24,6 +24,7 @@
 	 background: linear-gradient(to bottom, #1e5799 0%, #00c6ff 25%, #26c6da 55%, #7ae3ef 100%);
 }
  #screen, #wrapper, #touch-layer, #waves, #info-screen {
+	 background-image: url("./bg.jpg");
 	 position: relative;
 	 height: 250px;
 	 width: 300px;
